@@ -1,0 +1,259 @@
+/*Quote*/
+i.quote{
+    color: rgb(136, 4, 4);
+}
+/*Headings*/
+h2.Bio{
+    color: rgb(59, 72, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2.Edu{
+    text-align: center;
+    color: rgb(56, 67, 116);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2.Skills{
+    text-align: center;
+    color: rgb(56, 67, 116);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2.Lang{
+    text-align: center;
+    color: rgb(28, 14, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Special letters for Skills part*/
+span.S{
+    color: rgb(126, 243, 10);
+}
+span.k{
+    color: rgb(210, 105, 30);
+}
+span.i{
+    color: rgb(84, 132, 221);
+}
+span.l1{
+    color: rgb(211, 46, 79);
+}
+span.l2{
+    color: rgb(31, 160, 160);
+}
+span.s{
+    color: rgb(168, 82, 211);
+}
+/*Bio*/
+div.Bio{
+    background-color: rgb(50, 138, 211);
+    text-align: left;
+    height: 50%;
+    width: 60%;
+    padding-left: 4%;
+    border: 5px solid rgb(21, 97, 116);
+    margin-bottom: 1.25%;
+    margin-top: -0.9%;
+}
+div.Bio:hover{
+    transform: scale(1.2);
+    transition-delay: 0.15s;
+    transition-duration:1.5s;
+    background-color: rgb(98, 98, 252);
+    transform-origin: left;
+    border-color: rgb(98, 98, 252);
+    box-shadow: 0px 8px 16px 0px rgb(27, 59, 119);
+}
+/*Education*/
+div.Edu{
+    background-color: rgb(136, 182, 209);
+    height: 50%;
+    width: 70%;
+    margin-left: 30%;
+    margin-bottom: 1.25%;
+    margin-top: -0.9%;
+    border: 5px solid rgb(30, 109, 109);
+}
+div.Edu:hover{
+    transform: scale(1.2);
+    transition-delay: 0.15s;
+    transition-duration:1.5s;
+    background-color: rgb(77, 165, 224);
+    transform-origin: right;
+    border: 5px solid rgb(77, 165, 224);
+    box-shadow: 0px 8px 16px 0px rgb(27, 59, 119);
+}
+/*Skills*/
+div.Skills{
+    background-color: rgb(136, 141, 209);
+    height: 50%;
+    width: 64%;
+    margin-left: 0%;
+    margin-bottom: 1.7%;
+    margin-top: -0.5%;
+    border: 5px solid rgb(30, 67, 109);
+}
+div.Skills:hover{
+    transform: scale(1.2);
+    transition-delay: 0.15s;
+    transition-duration:1.5s;
+    background-color: rgb(77, 30, 206);
+    transform-origin: left;
+    border: 5px solid rgb(77, 30, 206);
+    box-shadow: 0px 8px 16px 0px rgb(27, 59, 119);
+}
+/*Languages*/
+div.Lang{
+    background-color: rgb(71, 78, 180);
+    height: 50%;
+    width: 64%;
+    margin-left: 36%;
+    margin-bottom: 1.3%;
+    margin-top: -0.8%;
+    border: 5px solid rgb(29, 83, 145);
+}
+div.Lang:hover{
+    transform: scale(1.2);
+    transition-delay: 0.15s;
+    transition-duration:1.5s;
+    background-color: rgb(151, 128, 216);
+    transform-origin: right;
+    border: 5px solid rgb(151, 128, 216);
+    box-shadow: 0px 8px 16px 0px rgb(27, 59, 119);
+}
+/*Address*/
+div.Address{
+    margin-top: -3%;
+}
+/*Conntact Me*/
+div.Conme{
+    margin-top: -1%;
+}
+/*Copyright*/
+div.copyr{
+    margin-bottom: 5%;
+}
+/*Back to top button*/
+button.button2:hover{
+    background-color: rgb(68, 150, 170);
+    transition-delay: 0.15s;
+    transition-duration:1.5s;
+}
+button.button2{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;;
+    border: none;
+    background-color: rgb(199, 210, 255);
+    text-align: center;
+    font-size: 24px;
+}
+/*Body*/
+body{
+    padding: 4%;
+    background-color: rgb(199, 210, 255);
+    transition-duration: 1s;
+    color: rgb(15, 15, 15);
+}
+body:hover{
+    background-color: rgb(167, 195, 211);
+    transition-delay: 0.05s;
+    transition-duration: 1.6s;
+    transform-origin: left;
+}
+/* Menu Button */
+button.menubutton{
+    font-family:fantasy;
+    background-color: rgb(199, 210, 255);
+    padding: 35%;
+    font-size: 16px;
+    border: none;
+}
+div.menudown{
+    width: 35px;
+    height: 5px;
+    margin-left: 90%;
+    margin-bottom: 3.1%;
+}
+div.menudown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(167, 195, 211);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(27, 59, 119);
+    z-index: 1;
+}
+div.menudown-content a{
+    font-family:monospace;
+    font-size: 130%;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+div.menudown-content a:hover{
+    background-color: rgb(209, 209, 248);
+    transition-duration:0.8s;
+}
+div.menudown:hover div.menudown-content{
+    display: block;
+}
+div.menudown:hover button.menubutton{
+      background-color: #5d74db;
+      transition-delay: 0.15s;
+      transition-duration:1.5s;
+}
+/*list item to horizontaly in Skills part*/
+li.li1{
+    display: inline-table;
+    text-align: center;
+    margin-right: 10%;
+    font-family:sans-serif;
+}
+/*Language table decorating*/
+td.row11{
+    height: 27px;
+    width: 42%;
+    text-align: center;
+}
+td.row12{
+    height: 27px;
+    width: 42%;
+    text-align: center;
+}
+td.row13{
+    height: 27px;
+    width: 42%;
+    text-align: center;
+}
+td.row21{
+    height: 27px;
+    width: 42%;
+    text-align: center;
+}
+td.row22{
+    height: 27px;
+    width: 42%;
+    text-align: center;
+}
+td.row23{
+    height: 27px;
+    width: 42%;
+    text-align: center;
+}
+td.row11:hover{
+    background-image: url("htmlpics/bihflagresize.png");
+}
+td.row12:hover{
+    background-image: url("htmlpics/germanflagresize.png");
+}
+td.row13:hover{
+    background-image: url("htmlpics/russianflagresize.png");
+}
+td.row21:hover{
+    background-image: url("htmlpics/ukflagresize.png");
+}
+td.row22:hover{
+    background-image: url("htmlpics/turkeyflagresize.jpg");
+}
+td.row23:hover{
+    background-image: url("htmlpics/latinflagresize.png");
+}
